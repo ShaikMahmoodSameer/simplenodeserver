@@ -7,7 +7,7 @@ app.get("/", (req,res)=>{
 });
 
 app.get("test", (req, res) => {
-    res.send({status: "Test route running!"})
+    res.send({status: "Testing route running!"})
 })
 
 const port = process.env.PORT || "0.0.0.0";
