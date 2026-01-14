@@ -6,7 +6,7 @@ app.get("/", (req,res)=>{
     res.send({status: "Server Running"});
 });
 
-app.get("test", (req, res) => {
+app.get("/test", (req, res) => {
     res.send({status: "Testing route running!"})
 })
 
