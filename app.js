@@ -10,7 +10,7 @@ app.get("test", (req, res) => {
     res.send({status: "Testing route running!"})
 })
 
-const port = process.env.PORT || "0.0.0.0";
+const port = process.env.PORT || 3555;
 app.listen(port, () => {
     console.log(`Server running on port ${port}`);
 
